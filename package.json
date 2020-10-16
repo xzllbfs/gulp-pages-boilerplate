@@ -8,8 +8,7 @@
   "scripts": {
     "clean": "gulp clean",
     "serve": "gulp serve",
-    "build": "gulp build",
-    "start": "gulp start"
+    "build": "gulp build"
   },
   "browserslist": [
     "last 1 version",
