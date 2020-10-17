@@ -27,10 +27,10 @@ const data = {
 const config = {
   // default config
   build: {
-    src: '../src',
-    dist: '../dist',
-    temp: '../temp',
-    public: '../public',
+    src: 'src',
+    dist: 'dist',
+    temp: 'temp',
+    public: 'public',
     paths: {
       styles: 'assets/styles/*.scss',
       scripts: 'assets/scripts/*.js',

@@ -19,10 +19,10 @@ const build = series(
 )
 
 // 合并开发环境任务
-const develop = series(compile, devServer)
+const serve = series(compile, devServer)
 
 module.exports = {
   clean,
   build,
-  serve: develop
+  serve
 }

@@ -1,7 +1,4 @@
-const { src, dest, parallel, series, watch } = require('gulp')
-
-const del = require('del')
-const browserSync = require('browser-sync')
+const { src, dest } = require('gulp')
 
 const loadPlugins = require('gulp-load-plugins')
 
